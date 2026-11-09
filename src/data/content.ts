@@ -1,3 +1,8 @@
+import sreWebDevImg from '../assets/services/sre-web-development.png'
+import lifestyleCoachingImg from '../assets/services/lifestyle-coaching.png'
+import infraOptimizationImg from '../assets/services/infrastructure-optimization.png'
+import digitalWellnessImg from '../assets/services/digital-wellness.png'
+
 const ASSET_BASE = 'https://storage.googleapis.com/webild/default/templates/creative-portfolio'
 
 export const siteContent = {
@@ -87,25 +92,25 @@ export const siteContent = {
         title: 'SRE & Web Development',
         description:
           "High-performance website development backed by robust Site Reliability Engineering practices. Scalable, secure, and fast.",
-        imageSrc: `${ASSET_BASE}/website.webp`,
+        imageSrc: sreWebDevImg,
       },
       {
         title: 'Lifestyle Transformation Coaching',
         description:
           "Personalized healthy living coaching targeting nutrition, sustainable workouts, sleep hygiene, and habit formation.",
-        imageSrc: `${ASSET_BASE}/photography.webp`,
+        imageSrc: lifestyleCoachingImg,
       },
       {
         title: 'Infrastructure & Cloud Optimization',
         description:
           "CI/CD pipelines, container orchestration, Kubernetes, and automated monitoring setups to ensure maximum uptime.",
-        imageSrc: `${ASSET_BASE}/product-design.webp`,
+        imageSrc: infraOptimizationImg,
       },
       {
         title: 'Digital Wellness Integration',
         description:
           "Building customized tech portals, habit trackers, and automated workflows for health/wellness businesses.",
-        imageSrc: `${ASSET_BASE}/videos.webp`,
+        imageSrc: digitalWellnessImg,
       },
     ],
     ctaButton: {
