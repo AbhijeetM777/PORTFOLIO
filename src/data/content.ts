@@ -2,16 +2,18 @@ import sreWebDevImg from '../assets/services/sre-web-development.png'
 import lifestyleCoachingImg from '../assets/services/lifestyle-coaching.png'
 import infraOptimizationImg from '../assets/services/infrastructure-optimization.png'
 import digitalWellnessImg from '../assets/services/digital-wellness.png'
+import abhijeetProfileImg from '../assets/about/abhijeet-profile.jpg'
+import abhijeetAvatarImg from '../assets/about/abhijeet-avatar.jpg'
 
 const ASSET_BASE = 'https://storage.googleapis.com/webild/default/templates/creative-portfolio'
 
 export const siteContent = {
   brand: 'Abhijeet Mohanty',
-  avatarSrc: `${ASSET_BASE}/avatar.webp`,
+  avatarSrc: abhijeetAvatarImg,
 
   nav: {
     logo: 'Abhijeet Mohanty',
-    logoImageSrc: `${ASSET_BASE}/avatar.webp`,
+    logoImageSrc: abhijeetAvatarImg,
     navItems: [
       { name: 'Work', href: '#work' },
       { name: 'About', href: '#about' },
@@ -31,7 +33,7 @@ export const siteContent = {
     primaryButton: {
       text: 'Connect with me',
       href: '#contact',
-      avatarSrc: `${ASSET_BASE}/avatar.webp`,
+      avatarSrc: abhijeetAvatarImg,
       avatarLabel: 'Abhijeet',
     },
     sectionTag: 'Featured Projects',
@@ -74,7 +76,7 @@ export const siteContent = {
     quote: "Whether optimizing server responsiveness or refining daily metabolic health, reliability and consistency are key.",
     author: 'Abhijeet Mohanty',
     role: 'SRE Engineer & Wellness Coach',
-    imageSrc: `${ASSET_BASE}/avatar.webp`,
+    imageSrc: abhijeetProfileImg,
     socialLinks: [
       { icon: 'Linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/abhijeet-mohanty/' },
       { icon: 'Twitter', label: 'Twitter', href: '#' },
@@ -116,7 +118,7 @@ export const siteContent = {
     ctaButton: {
       text: 'Schedule a call',
       href: '#contact',
-      avatarSrc: `${ASSET_BASE}/avatar.webp`,
+      avatarSrc: abhijeetAvatarImg,
       avatarLabel: 'Abhijeet',
     },
   },
@@ -158,7 +160,7 @@ export const siteContent = {
       },
     ],
     cta: {
-      imageSrc: `${ASSET_BASE}/avatar.webp`,
+      imageSrc: abhijeetAvatarImg,
       name: 'Have specific questions?',
       role: 'abhijeet.mohanty.sre@gmail.com', // custom professional-looking email
       buttonText: 'Get in touch',
